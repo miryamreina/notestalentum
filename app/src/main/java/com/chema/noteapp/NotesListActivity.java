@@ -1,5 +1,6 @@
 package com.chema.noteapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -29,6 +30,8 @@ public class NotesListActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.menu_main_action_add_note) {
+            Intent i= new Intent(NotesListActivity.this, NoteDetailActivity.class);
+            startActivity(i);
 
 
             return true;
