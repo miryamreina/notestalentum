@@ -7,7 +7,9 @@
     tools:context="com.chema.noteapp.NotesListActivity">
 
     <fragment
+        android:id="@+id/fragment_note_list"
         android:name="com.chema.noteapp.NoteListFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_note_list" />
 </RelativeLayout>
